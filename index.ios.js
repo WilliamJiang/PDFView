@@ -25,7 +25,7 @@ export default class reacttest extends Component {
 
   render() {
     return (
-      <FingerPrintIos />
+      <PdfDemo />
     );
   }
 }

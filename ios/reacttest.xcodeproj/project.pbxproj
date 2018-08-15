@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -23,11 +24,11 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		2D7C8017D9E740418DE8727C /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A27F38A9F5AA49D7B0FEFB8B /* libCodePush.a */; };
 		39E52411A22D49F2974C5964 /* libRNFS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3861E5CF4014D7A93BBA491 /* libRNFS.a */; };
+		5D42D8DC5B9840B2A1E34ACE /* libGATFingerprint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A495AE941245E8A3263AD3 /* libGATFingerprint.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9785FCCF13C44F5594231C46 /* libRNPDFView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5751D00C3D9547F3BB8D511C /* libRNPDFView.a */; };
 		A4D00E0BDE294E2D9D002D97 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCA4E16B4FE4DA5BC52EF07 /* libz.tbd */; };
-		5D42D8DC5B9840B2A1E34ACE /* libGATFingerprint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A495AE941245E8A3263AD3 /* libGATFingerprint.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
+		};
+		4A7DF5032123D33F00A50AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689FAF7EB982432280E193B2 /* GATFingerprint.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 747964B41D7013590007D434;
+			remoteInfo = GATFingerprint;
 		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -216,16 +224,16 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		5751D00C3D9547F3BB8D511C /* libRNPDFView.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNPDFView.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		689FAF7EB982432280E193B2 /* GATFingerprint.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = GATFingerprint.xcodeproj; path = "../node_modules/react-native-fingerprint/ios/GATFingerprint.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7A0CFE6332144BBC83923901 /* CodePush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = CodePush.xcodeproj; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		A27F38A9F5AA49D7B0FEFB8B /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCodePush.a; sourceTree = "<group>"; };
+		B0A495AE941245E8A3263AD3 /* libGATFingerprint.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libGATFingerprint.a; sourceTree = "<group>"; };
 		E3861E5CF4014D7A93BBA491 /* libRNFS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFS.a; sourceTree = "<group>"; };
 		EDCA4E16B4FE4DA5BC52EF07 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		EE171C16D9FC4C3085A1D580 /* RNFS.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFS.xcodeproj; path = "../node_modules/react-native-fs/RNFS.xcodeproj"; sourceTree = "<group>"; };
 		F87AD107D7F548F8A72F952D /* RNPDFView.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNPDFView.xcodeproj; path = "../node_modules/react-native-pdf-view/RNPDFView.xcodeproj"; sourceTree = "<group>"; };
-		689FAF7EB982432280E193B2 /* GATFingerprint.xcodeproj */ = {isa = PBXFileReference; name = "GATFingerprint.xcodeproj"; path = "../node_modules/react-native-fingerprint/ios/GATFingerprint.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		B0A495AE941245E8A3263AD3 /* libGATFingerprint.a */ = {isa = PBXFileReference; name = "libGATFingerprint.a"; path = "libGATFingerprint.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +367,14 @@
 			children = (
 				146834041AC3E56700842450 /* libReact.a */,
 				76D56B4E1DF7FF4E00D5EB31 /* libReact-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7DF4FF2123D33E00A50AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A7DF5042123D33F00A50AF4 /* libGATFingerprint.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -537,6 +553,10 @@
 					ProjectRef = 7A0CFE6332144BBC83923901 /* CodePush.xcodeproj */;
 				},
 				{
+					ProductGroup = 4A7DF4FF2123D33E00A50AF4 /* Products */;
+					ProjectRef = 689FAF7EB982432280E193B2 /* GATFingerprint.xcodeproj */;
+				},
+				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
 				},
@@ -652,6 +672,13 @@
 			fileType = archive.ar;
 			path = libReact.a;
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4A7DF5042123D33F00A50AF4 /* libGATFingerprint.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGATFingerprint.a;
+			remoteRef = 4A7DF5032123D33F00A50AF4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {

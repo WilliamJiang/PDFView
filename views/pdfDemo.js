@@ -6,6 +6,7 @@ import PDFView from 'react-native-pdf-view';
 import RNFS from 'react-native-fs';
 
 const pdfDownloadURL = 'http://image.tianjimedia.com/imagelist/2009/190/caq4z56jadof.pdf';
+//const pdfDownloadURL = '../document.pdf';
 var {height, width} = Dimensions.get('window');
 
 export default class PdfDemo extends Component {
